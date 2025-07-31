@@ -1,0 +1,8 @@
+services:
+
+  app:
+    image: 20250731-express-mods:1.0
+    ports:
+      - ${PORT}:${PORT}
+    environment:
+      - .env
